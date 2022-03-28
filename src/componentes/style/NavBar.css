@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('./BebasNeue-Regular.ttf');
+}
+
+.navegation{
+    display: flex;
+    justify-content:flex-end;
+    font-size: x-large;
+    column-gap: 30px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgb(185, 51, 51);
+    font-family: 'Bebas','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+a:visited{
+    color: rgba(255, 255, 255, 0.938);
+}
+
+.active{
+    font-weight: bolder;
+    text-decoration: underline;
+}

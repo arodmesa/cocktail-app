@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('./Righteous-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./RobotoMono-VariableFont_wght.ttf');
+}
+
+.div_card{
+    margin: 10px;
+    width: 20vw;
+    border-radius: 7px;
+    border-color: rgb(185, 51, 51);
+    border-style:groove;
+    -webkit-box-shadow: 6px 6px 4px -1px #000000ad; 
+    box-shadow: 6px 6px 4px -1px #000000ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_card{
+    width: 100%;
+}
+
+.h1_card{
+    font-family: 'Righteous', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.h3_card{
+    font-family: 'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.p_card{
+    font-family: Georgia, Times, 'Times New Roman', serif;    
+    margin: 5px;
+}
+
+.details_button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    border-radius: 7px;
+    background-color:  rgb(185, 51, 51);
+    color: white;    
+    justify-self: flex-end;
+    font-size: large;
+}
+
+.details_button:hover{
+    cursor: pointer;
+    background-color:  rgba(185, 51, 51, 0.719);
+    color: black;
+}
+
+
+@media(max-width:800px) and (min-width:450px){
+    .div_card{
+        font-size: small;        
+    }
+    .h1_card, .h3_card{
+        font-size: medium;
+    }
+    .details_button{
+        font-size: medium;
+    }
+}
+
+@media(max-width:449px) and (min-width:380px) {
+    .div_card{
+        font-size: smaller;        
+    }
+    .h1_card, .h3_card{
+        font-size: small;
+    }
+    .details_button{
+        font-size: medium;
+    }
+}
+
+
+@media(max-width:379px){
+    .div_card{
+        font-size: x-small;        
+    }
+    .h1_card, .h3_card{
+        font-size: x-small;
+    }
+    .details_button{
+        font-size: small;
+    }
+}
+

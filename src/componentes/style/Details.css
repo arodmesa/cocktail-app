@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('./BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./RobotoMono-VariableFont_wght.ttf');
+}
+
+.div_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;    
+    margin-bottom: 2%;
+}
+.retBtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+    background-color:  rgb(185, 51, 51);
+    color: white; 
+    font-size: large;
+    height: 30px;
+    width: 150px;
+    margin-right: 5px;
+}
+.retBtn:hover{
+    cursor: pointer;
+    background-color:  orange;
+    color: black;
+}
+
+.org_details{
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    column-gap: 15px
+}
+.full_img{
+    max-width: 80%;
+    max-height: 95%;
+    border-radius: 20px;
+}
+.org_params{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.org_texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.h2_nombres{
+    margin: 0;
+    font-size: xx-large;
+    font-family: 'Bebas', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2_datos{
+    margin: 0;
+    font-family: 'Bebas', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.ul_details{
+    margin: 0;
+    padding: 0;
+}
+
+.li_details{
+    display: inline;
+    margin-right: 9px;
+    font-family: 'Bebas', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+@media (max-width: 1100px) and (min-width: 650px){
+    .org_details{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        width: 80vw;
+        height: 100%;
+        row-gap: 25px;
+        align-items: center;
+    }
+    .full_img{
+        width: 50%;
+        height: 50%;
+        min-width: 250px;
+        border-radius: 20px;
+    }
+    .h2_nombres{
+        font-size: larger;
+    }
+    
+    .h2_datos{
+        font-size: larger;
+    }
+    .li_details{
+        font-size: larger;
+    }
+}
+@media (max-width: 649px){
+    .org_details{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        width: 80vw;
+        height: 100%;
+        row-gap: 25px;
+        align-items: center;
+    }
+    .full_img{
+        width: 50%;
+        height: 50%;
+        min-width: 250px;
+        border-radius: 20px;
+    }
+    .h2_nombres{
+        font-size: large;
+    }
+    
+    .h2_datos{
+        font-size: medium;
+    }
+    .li_details{
+        font-size: medium;
+    }
+}

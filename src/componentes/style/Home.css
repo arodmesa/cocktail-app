@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Yellow';
+    src: url('./Yellowtail-Regular.ttf');
+}
+
+.div_home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_title{
+    font-family: 'Yellow', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.div_all_cocktails{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+}
