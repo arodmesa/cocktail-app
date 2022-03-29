@@ -28,8 +28,7 @@ function App() {
       setDefecto(false);
       fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${textoSearch}`)
       .then(res=>res.json())
-      .then(data=>setDatosActuales(data.drinks))
-       
+      .then(data=>setDatosActuales(data.drinks))       
     }
   }
   function cambiarTexto(event){
