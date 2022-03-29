@@ -27,29 +27,29 @@ function Details({datallesListos, handleClick, foto, name, category, glass, info
                 <img className="full_img" src={foto} alt='drink picture'></img>
                 <div className="org_params">
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Name:</h2>
+                        <h2 className="h2_nombres">Name:    </h2>
                         <h2 className="h2_datos">{name}</h2>
                     </div>
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Category:</h2>
+                        <h2 className="h2_nombres">Category:    </h2>
                         <h2 className="h2_datos">{category}</h2>
                     </div>
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Glass:</h2>
+                        <h2 className="h2_nombres">Glass:   </h2>
                         <h2 className="h2_datos">{glass}</h2>
                     </div>
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Info:</h2>
+                        <h2 className="h2_nombres">Info:    </h2>
                         <h2 className="h2_datos">{info}</h2>
                     </div>
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Ingredients:</h2>
+                        <h2 className="h2_nombres">Ingredients: </h2>
                         <ul className="ul_details">
                             {array_li}
                         </ul>
                     </div>
                     <div className='org_texto'>
-                        <h2 className="h2_nombres">Instructions:</h2>
+                        <h2 className="h2_nombres">Instructions:    </h2>
                         <h2 className="h2_datos">{instructions}</h2>
                     </div>              
                 </div>
