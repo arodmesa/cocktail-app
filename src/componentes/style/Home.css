@@ -20,3 +20,9 @@
     grid-template-columns: auto auto auto;
     column-gap: 15px;
 }
+
+@media (max-width: 600px){
+    .div_all_cocktails{
+        column-gap: 5px;
+    }    
+}
